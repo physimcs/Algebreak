@@ -12,14 +12,15 @@ body {
 h1 {
     font-size: 10vh;
     text-shadow: .75vh .75vh rgb(81, 16, 130);
+    transition-duration: .25s;
 }
 
 #start-button {
     font-size: 5vh;
     font-family: "Silkscreen", sans-serif;
-    background-color: red;
     border: none;
     color: yellow;
+    background-color: transparent;
 }
 
 .screen {
